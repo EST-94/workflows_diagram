@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T07:23:13.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="z3Crk3LL0cQnurAeNFBy" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T08:51:22.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="J8e5CWp1k-rzfr6WeETa" version="15.8.8" type="github">
   <diagram id="nAZcz1AZxyblUzO_elrS" name="Page-1">
-    <mxGraphModel dx="2635" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4028" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -871,6 +871,25 @@
         </mxCell>
         <mxCell id="JDS7UahIMGXhulb1cyGr-54" value="Session" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=10;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
           <mxGeometry x="752.5" y="189.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JDS7UahIMGXhulb1cyGr-60" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="2071.52" as="sourcePoint" />
+            <mxPoint x="820" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1420" y="420" />
+              <mxPoint x="1120" y="420" />
+              <mxPoint x="1010" y="420" />
+              <mxPoint x="1010" y="320" />
+              <mxPoint x="820" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDS7UahIMGXhulb1cyGr-61" value="append to session" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="JDS7UahIMGXhulb1cyGr-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDS7UahIMGXhulb1cyGr-62" value="attribute" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="JDS7UahIMGXhulb1cyGr-60">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
