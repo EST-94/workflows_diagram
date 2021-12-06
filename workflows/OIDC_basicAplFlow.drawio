@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T00:44:40.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="woeK_DGlkmFZFN7ZAe-t" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-06T01:12:36.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="a2nZnjMBwJR_1kYH0oy8" version="15.9.1" type="github">
   <diagram id="nAZcz1AZxyblUzO_elrS" name="Page-1">
-    <mxGraphModel dx="2516" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5809" dy="1905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,14 +106,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7s5OwbQyg9fR4EaiZGAf-23" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="969.75" y="512" width="81" height="95" as="geometry" />
+          <mxGeometry x="788.5" y="510.5" width="81" height="95" as="geometry" />
         </mxCell>
         <mxCell id="7s5OwbQyg9fR4EaiZGAf-24" value="WSO2&lt;br&gt;(Authorization Server)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="950.25" y="615" width="125" height="30" as="geometry" />
+          <mxGeometry x="769" y="613.5" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7s5OwbQyg9fR4EaiZGAf-25" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1075.25" y="557.5799999999999" as="sourcePoint" />
+            <mxPoint x="890" y="558" as="sourcePoint" />
             <mxPoint x="1305.25" y="557.5799999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -129,13 +129,13 @@
         <mxCell id="7s5OwbQyg9fR4EaiZGAf-29" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1306.25" y="578" as="sourcePoint" />
-            <mxPoint x="1076.25" y="578" as="targetPoint" />
+            <mxPoint x="890" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7s5OwbQyg9fR4EaiZGAf-30" value="provides tokens" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="7s5OwbQyg9fR4EaiZGAf-29" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7s5OwbQyg9fR4EaiZGAf-31" value="&lt;font style=&quot;font-size: 9px&quot;&gt;https://localhost:9443/oauth2/authorize?&lt;br style=&quot;font-size: 9px&quot;&gt;client_id=6TRvndlC1xNzJ_Q_SSOIAS47vhsa&amp;amp;&lt;br style=&quot;font-size: 9px&quot;&gt;redirect_uri=http://localhost:8080/redirect.jsp&amp;amp;&lt;br style=&quot;font-size: 9px&quot;&gt;response_type=code&amp;amp;&lt;br style=&quot;font-size: 9px&quot;&gt;scope=openid&amp;amp;&lt;br style=&quot;font-size: 9px&quot;&gt;nonce=2bozv48CzZzHcOWo6TAv&amp;amp;&lt;br style=&quot;font-size: 9px&quot;&gt;state=secret%3DUtwTWLNaPA%26returnUrl%3Dhttp%3A%2F%2Flocalhost%3A8080%2Fmain.jsp&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=6;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="7s5OwbQyg9fR4EaiZGAf-31" value="&lt;font style=&quot;font-size: 9px&quot;&gt;https://wso2.my.com:9443/oauth2/authorize?&lt;br style=&quot;font-size: 9px&quot;&gt;client_id=6TRvndlC1xNzJ_Q_SSOIAS47vhsa&amp;amp;&lt;br style=&quot;font-size: 9px&quot;&gt;redirect_uri=http://localhost:8080/redirect.jsp&amp;amp;&lt;br style=&quot;font-size: 9px&quot;&gt;response_type=code&amp;amp;&lt;br style=&quot;font-size: 9px&quot;&gt;scope=openid&amp;amp;&lt;br style=&quot;font-size: 9px&quot;&gt;nonce=2bozv48CzZzHcOWo6TAv&amp;amp;&lt;br style=&quot;font-size: 9px&quot;&gt;state=secret%3DUtwTWLNaPA%26returnUrl%3Dhttp%3A%2F%2Flocalhost%3A8080%2Fmain.jsp&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=6;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-780" y="740" width="455" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7s5OwbQyg9fR4EaiZGAf-32" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -700,7 +700,7 @@
           <mxGeometry x="1160" y="1855.5" width="390" height="197" as="geometry" />
         </mxCell>
         <mxCell id="JDS7UahIMGXhulb1cyGr-9" value="JWT Claim" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1206.02" y="1825.75" width="187.95" height="40" as="geometry" />
+          <mxGeometry x="1261.02" y="1827" width="187.95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JDS7UahIMGXhulb1cyGr-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -737,7 +737,7 @@
         <mxCell id="JDS7UahIMGXhulb1cyGr-17" value="if not validated" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="JDS7UahIMGXhulb1cyGr-16" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JDS7UahIMGXhulb1cyGr-18" value="ERR_CONNECTION_REFUSED&lt;br&gt;Exception occurs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="JDS7UahIMGXhulb1cyGr-18" value="ERR_CONNECTION_REFUSED&lt;br&gt;Exception occurs&lt;br&gt;Signin failed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1122.05" y="830" width="180" height="44" as="geometry" />
         </mxCell>
         <mxCell id="JDS7UahIMGXhulb1cyGr-19" value="Enumeration&amp;lt;String&amp;gt; parameters = request.getParameterNames();" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=9;fontColor=#000000;" parent="1" vertex="1">
@@ -845,7 +845,7 @@
         <mxCell id="JDS7UahIMGXhulb1cyGr-52" value="try - for build JWT" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=10;fontColor=#333333;strokeColor=#666666;fillColor=#f5f5f5;" parent="1" vertex="1">
           <mxGeometry x="205.5" y="1824" width="154.5" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="JDS7UahIMGXhulb1cyGr-53" value="&lt;h1&gt;Question&lt;/h1&gt;&lt;p&gt;1. attribute.set 이후 코드는 종료된다. 이후 main으로 이동하는 코드가 없는데 어떻게 해당 값이 반영된 main으로 이동하게 되는가?&lt;/p&gt;&lt;p&gt;2. refrash / login 의 차이점. 어떻게 리프레쉬를 누르면 엑세스/리프레쉬가 다시 발급되고, 로그인을 누르면 이전값이 유지되는가?&lt;/p&gt;&lt;p&gt;3. ami : GoogleOIDCAuthenticator / Refrash_token 의 차이?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=9;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="JDS7UahIMGXhulb1cyGr-53" value="&lt;h1&gt;Question&lt;/h1&gt;&lt;p&gt;1. attribute.put 이후 코드는 종료된다. 이후 main으로 이동하는 코드가 없는데 어떻게 해당 값이 반영된 main으로 이동하게 되는가?&lt;/p&gt;&lt;p&gt;2. refrash / login 의 차이점. 어떻게 리프레쉬를 누르면 엑세스/리프레쉬가 다시 발급되고, 로그인을 누르면 이전값이 유지되는가?&lt;/p&gt;&lt;p&gt;3. amr : GoogleOIDCAuthenticator / Refrash_token 의 차이?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=9;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1170.52" y="1684" width="300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="JDS7UahIMGXhulb1cyGr-54" value="Session" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=10;strokeColor=#36393d;fillColor=#cce5ff;" parent="1" vertex="1">
@@ -874,8 +874,8 @@
         <mxCell id="fWIr-vQCf1LWlJ6MrGcR-4" value="send to redirectUrl" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="751.5" y="910" width="128.75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fWIr-vQCf1LWlJ6MrGcR-5" value="&lt;h1&gt;Question&lt;/h1&gt;&lt;p&gt;1. 쿠키를 다시 만들어주는 이유는?&lt;/p&gt;&lt;p&gt;2. 검증 유무와 무관하게 granttype이 달라도 같을때의 값을 동일한 변수에 매핑하는 이유는?&lt;/p&gt;&lt;p&gt;3. map방식으로 문자열을 뽑아내는 이유는?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=9;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-1135" y="1884" width="240" height="110" as="geometry" />
+        <mxCell id="fWIr-vQCf1LWlJ6MrGcR-5" value="&lt;h1&gt;&lt;span style=&quot;font-size: 9px ; font-weight: normal&quot;&gt;3. 쿠키를 다시 만들어주는 이유는?&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;4. 검증 유무와 무관하게 granttype이 달라도 같을때의 값을 동일한 변수에 매핑하는 이유는?&lt;/p&gt;&lt;p&gt;5. map방식으로 문자열을 뽑아내는 이유는?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=9;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-620" y="1420" width="240" height="86" as="geometry" />
         </mxCell>
         <mxCell id="fWIr-vQCf1LWlJ6MrGcR-6" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-500" y="1884" width="20" height="20" as="geometry" />
