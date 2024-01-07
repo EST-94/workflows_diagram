@@ -1,9 +1,220 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T10:44:07.205Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.17" etag="MWjRy3GPnV1ycIperor1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T11:51:21.220Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Pe5OG75f93Vx0BtH5sr5" version="22.1.17" type="github">
   <diagram name="페이지-1" id="W7oE5pZKumegX0ayrvY9">
-    <mxGraphModel>
+    <mxGraphModel dx="2712" dy="1451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-548" y="-11" width="1760" height="711" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-3" value="Samsung Cloud Platform" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-536" y="-6" width="344" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-531" y="31" width="735" height="653" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="222" y="29" width="977" height="656" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-7" value="SCP-IAM(SingleID) PB(Provisioning Block)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-454" y="22" width="512" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-8" value="SCP Platform MB (Management Block)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="445" y="20" width="512" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-9" value="SCP SingleID Services&lt;br&gt;(SingleID Console/Open API)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-314.5" y="241.5" width="253" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-10" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0;exitDx=136.5;exitDy=111;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-9" target="ZWE6TdigHL6hVymN-tuY-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-225.17" y="509" as="sourcePoint" />
+            <mxPoint x="-164" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-11" value="ElasticSearch, Kafka, Database" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-326" y="435" width="298" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-12" value="SCP SingleID Product UI&lt;br&gt;(cmp-portal-user-singleid)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="387" y="94" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-13" value="SCP SingleID Product API&lt;br&gt;(cmp-singleid-api)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="389" y="223" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-14" value="Event Bus" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="760" y="223" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-13" target="ZWE6TdigHL6hVymN-tuY-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="228" as="sourcePoint" />
+            <mxPoint x="715" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-16" value="Audit, Metering" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-17" value="SDS System" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="526" y="723" width="686" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-20" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="ZWE6TdigHL6hVymN-tuY-17" source="ZWE6TdigHL6hVymN-tuY-18" target="ZWE6TdigHL6hVymN-tuY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-18" value="CCBS&lt;br&gt;(Billing)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-17">
+          <mxGeometry x="70" y="40" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-19" value="SAP" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-17">
+          <mxGeometry x="393" y="40" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-21" value="SCP&lt;br&gt;PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="387" y="480" width="112" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-13" target="ZWE6TdigHL6hVymN-tuY-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="673" y="411" as="sourcePoint" />
+            <mxPoint x="773" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-25" value="Tenant / &lt;br&gt;Resource Info" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-28" value="Log &amp;amp; Audit" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="595" y="493" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-29" value="IOPS&lt;br&gt;(Metering)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="913" y="493" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-18" target="ZWE6TdigHL6hVymN-tuY-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="668" y="436" as="sourcePoint" />
+            <mxPoint x="718" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-31" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZWE6TdigHL6hVymN-tuY-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552" y="803" as="sourcePoint" />
+            <mxPoint x="718" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-32" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZWE6TdigHL6hVymN-tuY-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="552" y="803" as="sourcePoint" />
+            <mxPoint x="718" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-33" value="Billing &lt;br&gt;Request" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="556.9973516019196" y="392.00110555034" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-35" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-14" target="ZWE6TdigHL6hVymN-tuY-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="656" y="457" as="sourcePoint" />
+            <mxPoint x="706" y="407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-36" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZWE6TdigHL6hVymN-tuY-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="865" y="305" as="sourcePoint" />
+            <mxPoint x="1029" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-37" value="SCP APIM" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="154" y="178" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-38" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1.005;entryY=0.797;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-13" target="ZWE6TdigHL6hVymN-tuY-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="81" y="432" as="sourcePoint" />
+            <mxPoint x="181" y="432" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="336" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-39" value="&amp;lt;REST API&amp;gt;&lt;br&gt;Tenant Management" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-40" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.998;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-37" target="ZWE6TdigHL6hVymN-tuY-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="81" y="432" as="sourcePoint" />
+            <mxPoint x="181" y="432" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="76" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-41" value="&amp;lt;REST API&amp;gt;&lt;br&gt;Account Management" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-42" value="POD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-317" y="239" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-43" value="POD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="358" y="59" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-44" value="POD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="358" y="192" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-37" target="ZWE6TdigHL6hVymN-tuY-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="81" y="432" as="sourcePoint" />
+            <mxPoint x="181" y="432" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="275" y="278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-46" value="Product Order /&amp;nbsp;&lt;br&gt;Cancel" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-12" target="ZWE6TdigHL6hVymN-tuY-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="106" y="457" as="sourcePoint" />
+            <mxPoint x="156" y="407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-48" value="Legend" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-548" y="723" width="1021" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-50" value="SCP SingldID Service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-48">
+          <mxGeometry x="63" y="40" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-51" value="SCP SingleID Product" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-48">
+          <mxGeometry x="296" y="40" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-53" value="SCP Platform Service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-48">
+          <mxGeometry x="529" y="40" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-54" value="SDS System" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="ZWE6TdigHL6hVymN-tuY-48">
+          <mxGeometry x="766" y="40" width="211" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-55" value="SingleID SaaS Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="102" width="40" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-56" target="ZWE6TdigHL6hVymN-tuY-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-56" value="PC User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="231" width="40" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-57" value="Mobile User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="355.5" width="40" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-60" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" source="ZWE6TdigHL6hVymN-tuY-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-83" y="533" as="sourcePoint" />
+            <mxPoint x="-564" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-61" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-564" y="391" as="sourcePoint" />
+            <mxPoint x="-564" y="268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWE6TdigHL6hVymN-tuY-62" value="SingleID Service Use" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=16;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-448.99969652265236" y="267.502636510833" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
